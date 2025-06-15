@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #1c1c1c;
+  color: white;
+  text-align: center;
+}
+
+header {
+  background-color: #ff5722;
+  padding: 20px;
+  text-align: center;
+}
+
+.logo h1 {
+  margin: 0;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Brush Script MT";
+  color: black;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #222;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+table {
+  width: 90%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: #2a2a2a;
+  color: white;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+th, td {
+  padding: 12px 16px;
+  border: 1px solid #444;
+  text-align: center;
+}
+
+th {
+  background-color: #333;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #242424;
+}
+
+button {
+  padding: 6px 12px;
+  margin: 0 4px;
+  border: none;
+  background-color: black;
+  color:  #ff5722;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #cc0000;
+}
